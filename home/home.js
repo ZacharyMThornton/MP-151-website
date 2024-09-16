@@ -22,7 +22,7 @@ const defaultSecondaryText = styles.getPropertyValue("--Stext").split("(")[1].sl
 
 // apply the colors every time there is a color change
 function applyColors() {
-    //let primaryColor = localStorage.getItem("primary") || "12,12,12";
+    
     let primaryColor = localStorage.getItem("primary") || defaultPrimary;
     let secondaryColor = localStorage.getItem("secondary") || defaultSecondary;
     let tertiaryColor = localStorage.getItem("tertiary") || defaultTertiary;
