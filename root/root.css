@@ -1,0 +1,27 @@
+:root{
+    --primary: rgb(12,12,12);
+    --secondary: rgb(0,30,180);
+    --tertiary: rgb(90,255,10);
+    --Ptext: rgb(183, 237, 33);
+    --Stext: rgb(0,0,0);
+}
+
+.suse-title {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    font-family: "Abel", sans-serif;
+    font-weight: 800;
+    margin:0;
+    padding:0;
+}
