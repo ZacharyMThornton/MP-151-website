@@ -39,5 +39,3 @@ function set_default_color(){
 }
 
 applyColors();
-
-console.log("fuck");
