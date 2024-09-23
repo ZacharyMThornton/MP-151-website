@@ -97,7 +97,7 @@ p > a {
     border-style: solid;
     border-width: 2px;
     border-color: var(--tertiary);
-    color: var(--tertiary);
+    color: var(--Ptext);
     display: block;
     padding: 5%;
     margin: 10%;
