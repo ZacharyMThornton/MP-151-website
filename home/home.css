@@ -48,7 +48,7 @@ body {
     row-gap: 8em;
 }
 
-#link-box > button {
+.link{
     min-width:10em;
     width: 30vw;
     padding: 20px;
@@ -63,7 +63,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-#link-box > button:hover{
+.link:hover{
     background-color: var(--tertiary);
     color:var(--Stext);
     transition: color 0.3s ease;
@@ -73,6 +73,7 @@ body {
 #settings > p {
     display: block;
     margin:10px;
+    color(--Ptext);
 }
 
 p > a {
