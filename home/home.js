@@ -9,17 +9,6 @@ const text2 = document.getElementById("textColor2");
 const submit = document.getElementById("submit");
 const reset = document.getElementById("reset");
 
-// handles redirects for button links
-const links = ["../projects/projects.html", "../lightningTalks/lightningTalks.html", "../maintenance/maintenance.html"];
-
-const linkButtons = document.getElementsByClassName("link");
-
-for (let i=0; i <= linkButtons.length - 1; i++){
-    linkButtons[i].addEventListener("click", () => {
-        window.location.replace(links[i]);
-    })
-}
-
 primary.placeholder = localStorage.getItem("primary") || defaultPrimary;
 secondary.placeholder = localStorage.getItem("secondary") || defaultSecondary;
 tertiary.placeholder =  localStorage.getItem("tertiary") || defaultTertiary;
